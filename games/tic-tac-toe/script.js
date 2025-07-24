@@ -151,10 +151,12 @@ window.addEventListener("DOMContentLoaded", () => {
   }
 
   // Event Listeners
+if (closeModalBtn) {
   closeModalBtn.addEventListener("click", () => {
     modal.style.display = "none";
     restartGame();
   });
+}
 
   muteBtn.addEventListener("click", () => {
     bgMusic.muted = !bgMusic.muted;
