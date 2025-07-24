@@ -19,7 +19,7 @@ body::before {
   left: 0;
   height: 100%;
   width: 100%;
-  background: url('your-background.jpg') center/cover no-repeat;
+  background: url('../assets/bgvideo.mp4') center/cover no-repeat;
   opacity: 0.1; /* Subtle background */
   z-index: -1;
 }
